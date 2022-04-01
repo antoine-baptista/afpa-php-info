@@ -67,10 +67,11 @@
     <?php
 
         include_once("admin.class.php");
-        $admin1 = new Admin("test", "rires et chansons", "test 12");
+        $admin = new Admin("ADMIN1", "admin@mail.com", "ADM");
         echo "<pre style='background-color : cyan; border: 1px solid blue'>";
         // var_dump($user1);
-        print_r($admin1);
+        print_r($admin);
+        $admin->supprimerUser($user1);
         echo "</pre>";
         // my_var_dump($user1);
 

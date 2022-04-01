@@ -3,7 +3,8 @@
 class User 
 {
     // Propriétés
-    private $pseudo;
+    // private $pseudo;
+    protected $pseudo;
     private $email;
     private $signature;
     private $actif;
